@@ -38,7 +38,7 @@ cd Python-$version_id
 
 #设置默认安装目录
 mkdir /usr/local/python3
-./configure -prefix=/usr/local/python3
+./configure -prefix=/usr/local/python3 --with-ssl
 
 #编译安装
 make && make install
